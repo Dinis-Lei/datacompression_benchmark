@@ -1,0 +1,4 @@
+name,alias,arguments,suffix,has_output
+MFCompress,MFCompressD,-p 1,mfc,false
+naf,unnaf,--fasta -o,naf,true
+gzip,gzip,-k -f -d,gz,false

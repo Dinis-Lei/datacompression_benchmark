@@ -1,0 +1,6 @@
+name,alias,arguments,suffix
+gzip,gzip,-k -f -d,gz
+zstandard,zstd,-k -q -f -d,zst
+bzip2,bzip2,-k -f -d,bz2
+lzma,lzma,-k -f -d,lzma
+paq8,paq8,-d,paq8n

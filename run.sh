@@ -3,16 +3,15 @@
 display_usage() { 
 	echo -e "Usage: $0 [OPTIONS] \n"
     echo -e "Options:\n"
-    echo -e "\t-f FILENAME: File with copressors information to run"
+    echo -e "\t-f FILENAME: File with compressors information to run"
     echo -e "\t-h: Display usage and exit"
     echo -e "\t-r N_RUNS: Number of runs to execute"
-    echo -e "\t-t TEST_TYPE: Type of test to run\n"    
+    echo -e "\t-t TEST_TYPE: Type of test to run (name of directory inside input)\n"    
 } 
 
 isValid=(true true true)
 n_runs=1
-test_type="image"
-test_extension="fasta"
+test_type=""
 
 while getopts 'f:hr:t:' OPTION; do
   case "$OPTION" in

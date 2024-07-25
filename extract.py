@@ -24,5 +24,7 @@ if __name__ == '__main__':
     elif len(sys.argv) == 7:
         extract(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], int(sys.argv[5]), decompress=True)
     else:
+        for i in sys.argv:
+            print(i)
         print("Usage: python3 extract.py <dir> <out_filename> <compressor> <inp_filename> <n_runs> [decompress]")
         sys.exit(1)

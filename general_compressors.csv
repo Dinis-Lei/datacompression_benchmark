@@ -1,0 +1,7 @@
+name,alias,arguments,suffix,has_output
+gzip,gzip,-k,gz,false
+zstandard,zstd,-k -q,zst,false
+bzip2,bzip2,-k,bz2,false
+lzma,lzma,-k,lzma,false
+paq8,paq8,-1,paq8n,false
+nncp,nncp,c,nncp,true

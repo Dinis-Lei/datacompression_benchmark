@@ -1,0 +1,6 @@
+name,alias,arguments,suffix,has_output
+DSRC,dsrc,d,dsrc,true
+fqzcomp,fqzcomp,-d,fqz,true
+quip,quip,-d,qp,false
+gzip,gzip,-k -f -d,gz,false
+Spring,spring,-t 1 -d,spr,true

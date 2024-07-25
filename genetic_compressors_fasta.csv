@@ -1,0 +1,4 @@
+name,alias,arguments,suffix,has_output
+mfcompress,MFCompressC,2 -p 1,mfc,false
+naf,ennaf,--temp-dir tmp -o,naf,true
+gzip,gzip,-k,gz,false

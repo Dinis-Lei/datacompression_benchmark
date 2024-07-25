@@ -1,0 +1,5 @@
+name,alias,arguments,suffix,has_output
+DSRC,dsrc,c,dsrc,true
+fqzcomp,fqzcomp,,fqz,true
+quip,quip,,qp,false
+gzip,gzip,-k,gz,false
